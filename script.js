@@ -28,8 +28,32 @@ let moneyPaidSoFar = 2348;
 let totalLeftToPay = totalMoney - moneyPaidSoFar;
 console.log(`The total bill is £${totalMoney} the remaining amount of money to be paid is £${totalLeftToPay}`);
 
-let a = 100;
-while (a >= 200) {
-   console.log(a);
-    a++;
+
+
+let strictA = true;
+let strictB = 1;
+console.log(strictA === strictB);
+
+console.log(strictA !== strictB);
+
+let age = 10;
+if (age >=18 && age <= 65) {
+    console.log("age is in range");
+} else if (age <18) {
+    console.log("underage");
+} else {
+    console.log("catch all else");
 }
+
+
+
+for (let i = 1; i<=100; i++) {
+    if ((i %3 == 0) && (i % 5 ==0)){
+    console.log("fizzbuzz");
+ } else if (i % 3 == 0) {
+    console.log("fizz");
+ } else if (i % 5 == 0) {
+    console.log("buzz");
+} else {
+console.log(i);
+}}
