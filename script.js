@@ -30,6 +30,6 @@ console.log(`The total bill is £${totalMoney} the remaining amount of money to 
 
 let a = 100;
 while (a >= 200) {
+   console.log(a);
     a++;
-    console.log(`a = ${a}`); 
 }
